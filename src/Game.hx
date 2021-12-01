@@ -40,6 +40,16 @@ class Game extends Process {
 		fx = new Fx();
 		hud = new ui.Hud();
 
+		new en.Hero(5,5,0.1);
+
+		new en.Hero(4,5,0.01);
+
+		new en.Hero(3,5,0.05);
+
+		new en.Hero(2,5,0.03);
+		
+		new en.Hero(2,4,0.5);
+
 		Process.resizeAll();
 		trace(Lang.t._("Game is ready."));
 	}
