@@ -1,3 +1,4 @@
+import en.Enemy;
 import dn.Process;
 import hxd.Key;
 
@@ -39,6 +40,8 @@ class Game extends Process {
 		level = new Level();
 		fx = new Fx();
 		hud = new ui.Hud();
+		
+		new en.Enemy(6,6);
 
 		new en.Hero(5,5,0.1);
 
